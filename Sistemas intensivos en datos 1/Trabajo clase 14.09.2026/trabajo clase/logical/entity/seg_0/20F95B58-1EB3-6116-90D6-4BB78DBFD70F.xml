@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20F95B58-1EB3-6116-90D6-4BB78DBFD70F" name="DESPACHO">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:31:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_despacho" id="15148E32-8EDC-864D-C2BB-85D934E93E02">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:31:25 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2DFBC7E3-D990-308D-8FC9-1F9368E797A1">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:31:37 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_entrega" id="99CE94A0-BA7D-FD29-FA31-1E164E15C830">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:31:43 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pedido" id="9630B9C1-18DC-107E-9C63-61F9EAF8BBF1">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:35:33 UTC</createdTime>
+<generatorID>07E90FE1-6150-E5C5-9C12-6F65615C14D1</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>A05FC438-9D49-3A1D-73EB-7446EBAA764D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18843E22-697E-FA16-4938-AB9A403EAD89" name="DESPACHO PK">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:31:36 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15148E32-8EDC-864D-C2BB-85D934E93E02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

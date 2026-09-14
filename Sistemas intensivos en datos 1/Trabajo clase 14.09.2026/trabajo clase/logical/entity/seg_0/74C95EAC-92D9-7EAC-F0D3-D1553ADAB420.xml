@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74C95EAC-92D9-7EAC-F0D3-D1553ADAB420" name="ESCRITORIO">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:22:17 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>89023FFC-6507-32A6-A943-4AEC1DF08FD7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_cajones" id="08E680E5-1FF7-6301-7E50-7F88679BD26B">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:22:27 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="configuracion_teclado" id="B7D8E2F4-7A7A-D8C7-866F-AFC10952293C">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:22:43 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distribucion" id="4D800755-4E40-C936-C559-E7A7DC7F24C2">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:23:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

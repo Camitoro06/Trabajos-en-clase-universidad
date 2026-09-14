@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EDF4EBF-87D3-8D9C-5661-B44DDE9010E0" name="DETALLE_DESPACHO">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:32:28 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad_enviada" id="37728AE1-74E7-92FC-78B8-D9CD419EC5F8">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:32:46 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_despacho" id="722B01AA-F43F-26D8-C059-B48E26F8A30B">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:36:36 UTC</createdTime>
+<generatorID>2BF6CA71-F06B-4264-82A4-CC2BD86B3008</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>15148E32-8EDC-864D-C2BB-85D934E93E02</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

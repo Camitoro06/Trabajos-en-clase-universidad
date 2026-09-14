@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="280D1F91-B2CB-88DD-EBA5-2BF8E336EAD8" name="DETALLE_PEDIDO">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:12:21 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="E47FDCB0-4B74-492B-63DC-357FF577DD5C">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:12:37 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="A1F6BA41-1C30-7770-FED6-1A189F6537B2">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:12:44 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_producto" id="1DE38397-8EBA-9D2B-C4D3-5678F542000C">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:12:57 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="8FA1B8CA-611C-4440-855B-BDCA2A29F42A">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:13:09 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pedido" id="48246D9C-9ADB-A7A7-C110-E34D509B8AD4">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:29:04 UTC</createdTime>
+<generatorID>087533FC-68A3-A489-1F87-4A1855B4019F</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>A05FC438-9D49-3A1D-73EB-7446EBAA764D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_producto" id="9818B85B-D481-D67E-28B0-8755FA789B95">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:29:44 UTC</createdTime>
+<generatorID>CFBCDE4D-1A21-E585-3174-8FBD194A24AB</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>8AFFF86D-899B-109B-8FE6-E2AE044C9604</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

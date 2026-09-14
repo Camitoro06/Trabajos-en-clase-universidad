@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A1E498D-BC1E-561F-4DBC-2A7FADC35529" name="FACTURA">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:37:57 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_factura" id="0D641B26-0F33-A319-0E79-AF486122B031">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:38:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="57AB950C-348C-3B82-6E20-3EF768D3BD41">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:38:13 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="impuestos" id="EA89F35D-D38E-C1AA-9F04-D145F1AE72A9">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:38:21 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_total" id="3601D6DA-68E0-7C19-6D8E-507D4D28735D">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:38:33 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_despacho" id="CC8BA9AA-79D3-D0C4-AB50-F87A24959362">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:39:19 UTC</createdTime>
+<generatorID>51F9A1CB-1547-C898-B582-4E984D118E73</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>15148E32-8EDC-864D-C2BB-85D934E93E02</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A8E15CB-597E-3CCC-76BB-B88CD625A9FD" name="FACTURA PK">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:38:11 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D641B26-0F33-A319-0E79-AF486122B031</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

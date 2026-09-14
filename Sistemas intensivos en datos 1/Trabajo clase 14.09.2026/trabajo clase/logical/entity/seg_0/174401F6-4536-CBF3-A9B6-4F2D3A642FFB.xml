@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="174401F6-4536-CBF3-A9B6-4F2D3A642FFB" name="CLIENTE">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:09:29 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="82DBCC37-602A-5F7F-6861-EA184FC1DACA">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:09:50 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="98645382-6F2A-A1EC-64B5-EBDF062638FA">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:02 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_cliente" id="C4378357-A92D-CF90-4E47-979CC9126D95">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:11 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="2DDE53DA-AAE4-F179-25CB-5861398961E2">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:18 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento_identificacion" id="0D4F61FA-D0F9-0952-E36A-191068E24A93">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:35 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="0A62621E-F4FB-C95D-AB06-1F61D0F6931E">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:53 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="B4777CBC-1CBA-38A1-B626-9899ABE89365">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:11:02 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="86C425BA-6A5D-FF8F-ABEA-3F34B746E10B">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:11:10 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefomo" id="ECAAD57A-94C6-7469-E58F-81A112C2B17C">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:11:15 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="50FCE817-3C39-FBA2-1FAC-44B03CD3A9CE">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:11:26 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA7ECBD4-4C68-1A3D-7382-E4062430D4BB" name="CLIENTE PK">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:10:01 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82DBCC37-602A-5F7F-6861-EA184FC1DACA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

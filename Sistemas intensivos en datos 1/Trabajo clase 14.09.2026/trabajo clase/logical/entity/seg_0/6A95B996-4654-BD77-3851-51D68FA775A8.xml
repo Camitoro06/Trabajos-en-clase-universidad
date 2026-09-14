@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A95B996-4654-BD77-3851-51D68FA775A8" name="DETALLE_FACTURA">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:39:37 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="B3E10B73-E7E7-5C28-A20A-0596EA40B232">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:39:52 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="A098A174-9BBC-D45F-45DB-5A95AA192020">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:40:00 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_factura" id="56EA2E4C-0C42-F1CC-4B55-CBED4498DFB0">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:40:37 UTC</createdTime>
+<generatorID>826202FE-BED9-67C3-4F29-51C6C8B90236</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>0D641B26-0F33-A319-0E79-AF486122B031</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_producto" id="BDBEA898-1BCA-205A-9FE6-8AF47E6E8EA3">
+<createdBy>1112041532</createdBy>
+<createdTime>2026-09-14 16:41:01 UTC</createdTime>
+<generatorID>A74F3D01-01E0-15E7-F310-9662A34CA080</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<engineerTo>
+<item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
+</engineerTo>
+<referedAttribute>8AFFF86D-899B-109B-8FE6-E2AE044C9604</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
