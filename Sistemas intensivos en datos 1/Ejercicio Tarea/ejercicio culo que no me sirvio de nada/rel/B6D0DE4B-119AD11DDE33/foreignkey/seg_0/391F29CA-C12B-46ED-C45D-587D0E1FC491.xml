@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="391F29CA-C12B-46ED-C45D-587D0E1FC491" containerWithKeyObject="DDD76968-2AEF-FD37-00D5-2D2FBDAE46DF" localFKIndex="06598323-8927-0726-2210-436F15E2B4AF" name="ROUTE_PORT_FKv2">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>D168DA41-9CBE-2E16-864C-61B3FAAB2C90</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<referredTableLongName>PORT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13029A82-7D13-F182-4127-5B6FE02D2225</referredTableID>
+<keyObject>CEE626A8-CC95-D0A6-792B-E9AC6DAECDF0</keyObject>
+<referredKeyID>CEE626A8-CC95-D0A6-792B-E9AC6DAECDF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>port_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

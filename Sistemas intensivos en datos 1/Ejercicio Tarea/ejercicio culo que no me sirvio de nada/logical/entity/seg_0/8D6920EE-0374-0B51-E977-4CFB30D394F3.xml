@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D6920EE-0374-0B51-E977-4CFB30D394F3" name="TRIP">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:53:57 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trip_id" id="CCB9343A-6EE4-1DAB-8905-6BD62789895B">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:54:07 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip_date" id="409B40F0-E76B-534C-319A-D86BC06FC5A7">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:54:12 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="B76FC12A-DF7F-B4D1-FC75-EFFE44A91F5C">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:02:07 UTC</createdTime>
+<generatorID>E4BE8CA2-AAC6-ECB7-AB1D-5C1C52C77CE7</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>F1FFE49D-8B17-4B54-2C23-1AE642D3BED4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="route_id" id="EF0CE581-CD0C-4DFB-DCB8-31AB4CBD1514">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:08:54 UTC</createdTime>
+<generatorID>6A97DD2B-4615-F160-5CDE-53050ED13A91</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>8F028F8D-6CD2-0E35-334A-3C3038184960</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="944A84ED-00E1-52D9-1911-FD29F2D11833" name="TRIP PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:54:11 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCB9343A-6EE4-1DAB-8905-6BD62789895B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

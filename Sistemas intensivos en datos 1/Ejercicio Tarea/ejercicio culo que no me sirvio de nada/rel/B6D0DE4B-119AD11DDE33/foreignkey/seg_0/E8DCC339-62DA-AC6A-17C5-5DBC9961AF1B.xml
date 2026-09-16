@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8DCC339-62DA-AC6A-17C5-5DBC9961AF1B" containerWithKeyObject="5148486A-8437-1838-E23A-EA3B32E3A65C" localFKIndex="1D440836-ABBC-6DE5-E636-5F3FD3CDE7EC" name="BRANCH_CITY_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>DDCC79F5-F6C7-0610-1BBB-C60AF1C24D50</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<referredTableLongName>CITY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5D300FF-886F-DA43-F4ED-96DB69B1C288</referredTableID>
+<keyObject>6820CCD4-C7A4-0EBC-A45B-F3FA87C69853</keyObject>
+<referredKeyID>6820CCD4-C7A4-0EBC-A45B-F3FA87C69853</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>city_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="575A2D1E-C0B5-5C8C-78F0-5501DA88A00B" name="CUSTOMER">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>0B4BB4FC-FD5C-D332-5613-6AE45332001F</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<ordsAlias>custumer</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="6E94F644-F43F-6E97-96DC-56E7B85FD6E0">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>910E6AC7-DB8B-84B7-AE30-2340B86F7290</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="1A350747-70CD-F42C-BAAC-40A54D646673">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>4AB0658C-2DE3-287E-A0F9-EED3E3CC0E21</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="237AB45F-E052-34DE-1228-ED664155D5F3">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>DC3B54C3-B8B3-9E0D-B6EE-E50BEE60C873</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D85A910-A4D2-14B4-5A70-EA39D95AF032" name="CUSTUMER_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>B05D2908-67A3-18B1-F395-256A507FD754</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E94F644-F43F-6E97-96DC-56E7B85FD6E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

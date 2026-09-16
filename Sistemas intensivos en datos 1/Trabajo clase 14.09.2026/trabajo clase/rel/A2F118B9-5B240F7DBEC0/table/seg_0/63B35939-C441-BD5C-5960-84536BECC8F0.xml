@@ -71,6 +71,9 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="887E5051-C1FB-27C3-290A-5E8EA119F796" referredColumn="F11ABA9E-0123-0157-84D4-BBD91AD5CB62"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -95,6 +98,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B3BC89A5-071C-1565-7BFB-D48A8836C512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF637642-6BE3-D07A-22EB-E3CF9C81E8F1" name="PAGOS_FORMAS_PAGO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:56:14 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DAC83C-DA28-A326-1FE8-585D4377211D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

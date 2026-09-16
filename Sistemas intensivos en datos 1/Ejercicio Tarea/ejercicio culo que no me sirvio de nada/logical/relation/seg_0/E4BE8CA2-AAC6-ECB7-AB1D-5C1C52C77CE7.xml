@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="E4BE8CA2-AAC6-ECB7-AB1D-5C1C52C77CE7">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:02:00 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<sourcePk>271289E4-8B76-20AE-7AA2-220C0572279C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9E9BBD3-B3D7-74A2-CB21-4BE5B0D8B05F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8D6920EE-0374-0B51-E977-4CFB30D394F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

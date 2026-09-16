@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B47B1D3-A35C-BEDF-4C7B-E4D97648219E" name="SHIP_TYPE">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:51:55 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ship_type_id" id="F015E62A-3DFE-50AB-6101-026841DEAFCD">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:52:30 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="94B03A8A-D7A3-C2ED-B2CF-7D17D38F32C1">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:52:49 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55EBC0DB-6815-A001-7A6A-A91AAEC892F9" name="SHIP_TYPE PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:52:47 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F015E62A-3DFE-50AB-6101-026841DEAFCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52F78D56-5703-17B7-8821-4FA640B998DF" name="TIPOS_CLIENTE">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:06:42 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_cliente" id="5BE7DCFE-999B-FD69-7D18-6E4CC4EE2C1E">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:10:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrpicion" id="C9B3AAC0-3BCA-84C7-5B4D-F9ED42E72D66">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:10:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81CCCC33-07B5-270C-32CF-00644AFBA739" name="TIPOS_CLIENTE_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:10:04 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE7DCFE-999B-FD69-7D18-6E4CC4EE2C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

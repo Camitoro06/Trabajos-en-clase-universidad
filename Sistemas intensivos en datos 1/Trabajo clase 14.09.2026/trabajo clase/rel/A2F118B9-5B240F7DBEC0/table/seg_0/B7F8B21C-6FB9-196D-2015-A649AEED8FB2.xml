@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -45,11 +45,26 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A02F5ADD-2FCA-60E6-83DF-1759AF45CDE2" referredColumn="BAEA14EE-B033-E234-2C5C-850A402188BC"/>
+</associations>
+</Column>
+<Column name="DETALLES_PEDIDO_id_estado_producto" id="1F7C5748-182C-21B8-927A-498E70BD3282">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:00:35 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A02F5ADD-2FCA-60E6-83DF-1759AF45CDE2" referredColumn="1A7D4E9D-B1E2-DE2F-D850-713C682690FC"/>
 </associations>
 </Column>
 </columns>
@@ -86,6 +101,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="09697704-367F-F60C-F7B8-76BF12EB47E9"/>
+<colUsage columnID="1F7C5748-182C-21B8-927A-498E70BD3282"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

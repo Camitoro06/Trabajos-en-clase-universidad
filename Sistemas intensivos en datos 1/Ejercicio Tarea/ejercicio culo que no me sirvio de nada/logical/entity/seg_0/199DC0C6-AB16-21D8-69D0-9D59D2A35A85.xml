@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="199DC0C6-AB16-21D8-69D0-9D59D2A35A85" name="PORT">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:51:05 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port_id" id="BC33C0C1-8016-7938-B4F7-F91197036D85">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:51:10 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="0E84738A-F39A-4900-A36D-2DA2F6208790">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:51:17 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city_id" id="0CE64D4B-C1CF-1F57-94F6-D4B322466433">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:00:34 UTC</createdTime>
+<generatorID>57F7E984-BF2A-F401-2F92-04B6444537BA</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>2BD9C066-1963-F5EB-00F1-8479E03C3759</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2068B709-DAF3-71B7-ADB7-3CCC62488C0C" name="PORT PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:51:16 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC33C0C1-8016-7938-B4F7-F91197036D85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D8EBBB-2606-585C-9CE3-228917AA193F" name="TRIP">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>8D6920EE-0374-0B51-E977-4CFB30D394F3</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trip_id" id="F669BF43-E12A-9F7E-C3CA-2AD67FAE30E4">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>CCB9343A-6EE4-1DAB-8905-6BD62789895B</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trip_date" id="32332FA0-8444-109D-A162-8985D2078199">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>409B40F0-E76B-534C-319A-D86BC06FC5A7</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_code" id="7AAC081A-DC48-4156-2940-9F1F48F92A31">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>B76FC12A-DF7F-B4D1-FC75-EFFE44A91F5C</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E571586-7E7C-9736-C9B4-9849B46A8FA2" referredColumn="48AC4BD2-C3C9-53BA-F809-2B5EC04AE928"/>
+</associations>
+</Column>
+<Column name="route_id" id="D7FD629C-8BCA-4DD2-D9A5-983E24DBABED">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>EF0CE581-CD0C-4DFB-DCB8-31AB4CBD1514</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14C7EDF5-FC45-DD4A-9F95-C614271DAA20" referredColumn="62838020-81B5-DAB9-1D85-09E437CBE384"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="229579D4-4A6E-94DB-B2F9-54086E31DD40" name="TRIP_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>944A84ED-00E1-52D9-1911-FD29F2D11833</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F669BF43-E12A-9F7E-C3CA-2AD67FAE30E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C33348C-4827-B7CC-E881-EC3C4AFF4262" name="TRIP_ROUTE_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>6A97DD2B-4615-F160-5CDE-53050ED13A91</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7FD629C-8BCA-4DD2-D9A5-983E24DBABED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E56A3D14-C432-E2D9-8AF9-B634A1395571" name="TRIP_SHIP_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>E4BE8CA2-AAC6-ECB7-AB1D-5C1C52C77CE7</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAC081A-DC48-4156-2940-9F1F48F92A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -41,12 +41,32 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E142D1A9-3586-76C7-A805-F79416BF981F" referredColumn="54277AF7-620E-6356-C3E4-4FE63C631F9F"/>
 </associations>
+</Column>
+<Column name="CLIENTES_id_tipo_cliente" id="7472AFE1-C291-A6B7-F097-3DD68D4C4EA8">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:13:49 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTES_id_tipo_documento" id="12074B82-FD2E-12C4-550F-C3978A41AF53">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:17:39 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

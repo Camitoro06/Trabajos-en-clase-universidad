@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D70BE2EA-CE39-4A0F-FFD3-DE8A91D30414" name="PACKAGE">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:56:52 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="package_code" id="8D8EBD01-2430-4C1F-B685-C190027E0013">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:56:58 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="package_date" id="4A28FE48-9B46-FF76-5936-E57A9F617BB3">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:57:14 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custumer_id" id="8A741BC8-4C84-E1F0-02CA-8F3BE5E7E8B9">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:06:05 UTC</createdTime>
+<generatorID>3171E858-7F0E-6F15-463B-1E68E396E2CB</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>910E6AC7-DB8B-84B7-AE30-2340B86F7290</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branch_id" id="A3E08530-71CE-55CC-C777-3F22EA1B3FCC">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:07:01 UTC</createdTime>
+<generatorID>724E7479-E4C5-FDAF-EAFC-A847AE449E9D</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>A74A03E4-5930-B773-878C-79BB688D2741</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branch_id1" id="CA14EB70-E228-DE9E-8FC7-AD12C9D5B1B8">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:07:18 UTC</createdTime>
+<generatorID>BA2B618C-16F3-2BEB-9DAE-8F59C573E004</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<referedAttribute>A74A03E4-5930-B773-878C-79BB688D2741</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AF1A3DB-D7B8-0166-CF45-5F8C6EB4CE25" name="PACKAGE PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 12:57:12 UTC</createdTime>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<engineerTo>
+<item key="B6D0DE4B-C4C3-E29A-9EC6-119AD11DDE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D8EBD01-2430-4C1F-B685-C190027E0013</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

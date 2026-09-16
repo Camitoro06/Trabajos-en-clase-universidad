@@ -33,30 +33,6 @@
 <ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_cliente" id="FC4E5509-7DF8-8130-2527-C14EB85FB09D">
-<createdBy>jptor</createdBy>
-<createdTime>2026-09-16 01:15:12 UTC</createdTime>
-<generatorID>C4378357-A92D-CF90-4E47-979CC9126D95</generatorID>
-<ownerDesignName>trabajo clase</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="tipo_documento" id="905D9D88-A00F-387A-C431-43EA2CCDE75E">
-<createdBy>jptor</createdBy>
-<createdTime>2026-09-16 01:15:12 UTC</createdTime>
-<generatorID>2DDE53DA-AAE4-F179-25CB-5861398961E2</generatorID>
-<ownerDesignName>trabajo clase</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="documento_identificacion" id="1CBA3027-77EE-8ECC-7DF5-4FEEEB6111BA">
 <createdBy>jptor</createdBy>
 <createdTime>2026-09-16 01:15:12 UTC</createdTime>
@@ -129,6 +105,34 @@
 <ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_tipo_cliente" id="07072A33-411B-273B-CF9F-E79F0351C6CC">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:13:49 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD8CDE69-0B3D-0B5B-D868-5309EC5CD05C" referredColumn="5BE7DCFE-999B-FD69-7D18-6E4CC4EE2C1E"/>
+</associations>
+</Column>
+<Column name="id_tipo_documento" id="65D161F5-0EA1-5060-A350-FA200C45046B">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:17:39 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="858F982B-FD19-8BEE-FA83-0EF3B6AE076C" referredColumn="EC6E553C-624F-E10D-BF14-B6A94B8310DF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B7683525-1999-1457-8B7B-B8D2352F67B0" name="CLIENTE_PK">
@@ -141,6 +145,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="54277AF7-620E-6356-C3E4-4FE63C631F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2635619-9881-B2AB-FB04-0C8D6FDCC89C" name="CLIENTES_TIPOS_CLIENTE_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:13:49 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07072A33-411B-273B-CF9F-E79F0351C6CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E816985-EC3D-3C72-0323-84FED6D5B28D" name="CLIENTES_TIPOS_DOCUMENTO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:17:39 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65D161F5-0EA1-5060-A350-FA200C45046B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

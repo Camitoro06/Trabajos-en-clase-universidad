@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDD76968-2AEF-FD37-00D5-2D2FBDAE46DF" name="ROUTE">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>A3F8E853-0BC7-E35B-77D5-E5A71B8EAA61</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="route_id" id="62838020-81B5-DAB9-1D85-09E437CBE384">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>8F028F8D-6CD2-0E35-334A-3C3038184960</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estimated_duration" id="A68FD4A5-2CC4-8F0A-1D90-D6A626FB3DCA">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>47D9EA3E-19A7-1BE1-033F-503CC69EA7EE</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origin_port_id" id="8E220498-7EFD-E615-5205-E8F5E706060B">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>EC52A29D-4B91-8BBC-9980-D74B4431640B</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="391F29CA-C12B-46ED-C45D-587D0E1FC491" referredColumn="DFD0AA19-C1EB-59C3-8918-0B4D855FFBDE"/>
+</associations>
+</Column>
+<Column name="destination_port_id" id="09B3C137-0077-401D-0A42-AAC83D2D441B">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>75707A11-E31C-9355-3FF9-4A51589A4FE3</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEC736AC-73DE-6368-5B75-922991116FA0" referredColumn="DFD0AA19-C1EB-59C3-8918-0B4D855FFBDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD0912AA-F6DC-DAE1-C63F-8CB16AA0292B" name="ROUTE_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>B2305E4F-9A59-8CE8-5307-D3F6C11DCF4E</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62838020-81B5-DAB9-1D85-09E437CBE384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E21DF07-0D87-0453-5E96-A9A9181C6C13" name="ROUTE_PORT_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>79B3113A-1597-27F9-ADAB-E9FF0FAEBB1F</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B3C137-0077-401D-0A42-AAC83D2D441B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06598323-8927-0726-2210-436F15E2B4AF" name="ROUTE_PORT_FKv2">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>D168DA41-9CBE-2E16-864C-61B3FAAB2C90</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E220498-7EFD-E615-5205-E8F5E706060B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

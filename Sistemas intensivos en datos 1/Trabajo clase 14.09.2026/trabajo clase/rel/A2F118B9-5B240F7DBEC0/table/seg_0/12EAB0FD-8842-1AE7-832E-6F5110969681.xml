@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12EAB0FD-8842-1AE7-832E-6F5110969681" name="FORMAS_PAGO">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:34:15 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_forma_pago" id="F11ABA9E-0123-0157-84D4-BBD91AD5CB62">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:35:42 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripción" id="30C3D7F7-4DE7-6C26-66A5-E9A962881B53">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:35:42 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45FCE10E-CE96-871E-A218-725BCAC7836D" name="FORMAS_PAGO_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:39:17 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F11ABA9E-0123-0157-84D4-BBD91AD5CB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

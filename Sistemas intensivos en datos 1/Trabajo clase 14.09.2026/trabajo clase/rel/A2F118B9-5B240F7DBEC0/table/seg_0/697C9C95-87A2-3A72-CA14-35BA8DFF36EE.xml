@@ -34,18 +34,6 @@
 <ownDataTypeParameters>,12,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado_producto" id="444D01BF-D739-E23C-6B1E-CE036020126A">
-<createdBy>jptor</createdBy>
-<createdTime>2026-09-16 01:15:12 UTC</createdTime>
-<generatorID>1DE38397-8EBA-9D2B-C4D3-5678F542000C</generatorID>
-<ownerDesignName>trabajo clase</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="subtotal" id="E1DA8567-DAB0-CFD1-91EC-A6330CDCFC72">
 <createdBy>jptor</createdBy>
 <createdTime>2026-09-16 01:15:12 UTC</createdTime>
@@ -105,6 +93,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <isSurrogateColumn>true</isSurrogateColumn>
 </Column>
+<Column name="id_estado_producto" id="1A7D4E9D-B1E2-DE2F-D850-713C682690FC">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:59:50 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8BC51FC-705E-CE29-4483-F812547C5FC4" referredColumn="E7E0DB36-1DAF-01BE-AEB0-F09BC3F75E5A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2D2B45E0-B5E6-67D8-467E-BDF6052C3297" name="DETALLE_PEDIDO_PK">
@@ -115,6 +117,7 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="BAEA14EE-B033-E234-2C5C-850A402188BC"/>
+<colUsage columnID="1A7D4E9D-B1E2-DE2F-D850-713C682690FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="52078039-FB13-DB66-E8C9-4069BB3FD229" name="DETALLE_PEDIDO_PEDIDO_FK">
@@ -137,6 +140,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="86436006-008A-3B1C-5760-0FDDE0F3C50F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D56CE1C7-0D3D-400D-4EA5-2C1E1CCE3E15" name="DETALLES_PEDIDO_ESTADOS_PRODUCTO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 14:05:13 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A7D4E9D-B1E2-DE2F-D850-713C682690FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

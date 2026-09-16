@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14C7EDF5-FC45-DD4A-9F95-C614271DAA20" containerWithKeyObject="43D8EBBB-2606-585C-9CE3-228917AA193F" localFKIndex="5C33348C-4827-B7CC-E881-EC3C4AFF4262" name="TRIP_ROUTE_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 13:12:28 UTC</createdTime>
+<generatorID>6A97DD2B-4615-F160-5CDE-53050ED13A91</generatorID>
+<ownerDesignName>ejercicio culo que no me sirvio de nada </ownerDesignName>
+<referredTableLongName>ROUTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDD76968-2AEF-FD37-00D5-2D2FBDAE46DF</referredTableID>
+<keyObject>CD0912AA-F6DC-DAE1-C63F-8CB16AA0292B</keyObject>
+<referredKeyID>CD0912AA-F6DC-DAE1-C63F-8CB16AA0292B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>route_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
