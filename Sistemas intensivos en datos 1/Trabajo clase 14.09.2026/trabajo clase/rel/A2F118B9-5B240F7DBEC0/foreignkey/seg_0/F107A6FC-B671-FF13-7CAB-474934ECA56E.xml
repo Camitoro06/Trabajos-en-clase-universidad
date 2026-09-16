@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F107A6FC-B671-FF13-7CAB-474934ECA56E" containerWithKeyObject="0DA39F4D-A5B6-5CE0-58AF-B580788D5003" localFKIndex="E0D111FE-2E26-967E-0B52-3F7D82866A8E" name="FACTURA_DESPACHO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>51F9A1CB-1547-C898-B582-4E984D118E73</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<referredTableLongName>DESPACHOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1BBB64B-510F-AF20-A56E-E1EF59903160</referredTableID>
+<keyObject>924BE57F-3767-8B04-C40D-52B74AE1169B</keyObject>
+<referredKeyID>924BE57F-3767-8B04-C40D-52B74AE1169B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_despacho</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

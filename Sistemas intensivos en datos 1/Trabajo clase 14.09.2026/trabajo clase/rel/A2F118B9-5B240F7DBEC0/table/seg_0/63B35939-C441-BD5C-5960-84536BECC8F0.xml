@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63B35939-C441-BD5C-5960-84536BECC8F0" name="PAGOS">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>CA549A7D-6C98-DD01-48C4-A78956B4490E</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>pago</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_pago" id="CCB172D3-F295-E37C-D3BC-426DF4E30FD6">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>64D32C58-45CB-914D-515F-5C921B2025A2</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="273AE936-34EA-797D-41EA-6F79F2AD2CA4">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>ABC931BE-8C4F-8D41-F0A5-A8256A18BA42</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="1A229113-A08F-D579-A772-D33B7EBB2F59">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>9A393E2C-6357-983E-1AE7-ABF67879A049</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACTURA_numero_factura" id="B3BC89A5-071C-1565-7BFB-D48A8836C512">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>8FEAC762-DF9D-CCC3-B6E0-389AC64663DB</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EDD1BC4-675A-FE24-8113-7E9612AEE0A8" referredColumn="53527E1E-3E90-D17D-85BB-1A7BAF5B84EB"/>
+</associations>
+</Column>
+<Column name="id_forma_pago" id="E2DAC83C-DA28-A326-1FE8-585D4377211D">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 02:11:27 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F90D9A1-BDB8-4A38-C936-B228EC07B004" name="PAGO_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>A98D256B-633E-52E7-1AA8-32DB1381D915</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB172D3-F295-E37C-D3BC-426DF4E30FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F82C056C-BCFE-3EAB-1622-CC10E74A43EC" name="PAGO_FACTURA_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>DF649409-A71C-1D92-B14D-104E2FB9F161</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3BC89A5-071C-1565-7BFB-D48A8836C512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

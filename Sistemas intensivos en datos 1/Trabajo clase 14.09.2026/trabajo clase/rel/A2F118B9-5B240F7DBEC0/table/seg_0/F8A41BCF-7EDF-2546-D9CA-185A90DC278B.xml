@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8A41BCF-7EDF-2546-D9CA-185A90DC278B" name="MESAS">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>564E74DD-B076-311F-004B-DA2CA681E05A</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>mesa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_producto" id="C2EBD70E-7318-C597-666A-C06B53C5E2FB">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>8AFFF86D-899B-109B-8FE6-E2AE044C9604</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3031EBA2-C8BA-AA38-7099-BD942616BB76" referredColumn="7D5A6E3F-A733-2E3B-183C-091648A635F4"/>
+</associations>
+</Column>
+<Column name="numero_puestos" id="872D5E2C-F582-DE9A-5E5B-314F07ED1683">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>A9DAC678-F2F0-151D-710E-DED84AF18550</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma" id="99089CA7-4A08-F05D-4CCA-F35C2FB9BB35">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>07EC6808-C46B-5D35-256E-016FCF3A52D3</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44A1BA79-47A8-16D7-37BB-C7B40F488A93" name="MESA_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>0709A173-334E-B757-B1EE-D64D2B9CCAE6</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2EBD70E-7318-C597-666A-C06B53C5E2FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E853AC40-C236-612A-3DFE-5FBB571891C2" name="MESA_PRODUCTO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>08D6950A-0679-30BA-1043-0077CAF59E62</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2EBD70E-7318-C597-666A-C06B53C5E2FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

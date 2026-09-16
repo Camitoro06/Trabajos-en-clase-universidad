@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37542C6D-D513-B3A1-30F7-44A4C8AB13F1" name="DETALLES_FACTURA">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>6A95B996-4654-BD77-3851-51D68FA775A8</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>detalle_factura</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="F69DD8B9-8482-D1EA-DAEA-76D150F65BB5">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>B3E10B73-E7E7-5C28-A20A-0596EA40B232</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="D7B2D736-BE8D-3CFF-0FD7-0E2BB2F31FE0">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>A098A174-9BBC-D45F-45DB-5A95AA192020</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACTURA_numero_factura" id="E0FB0FC1-BE45-2151-44AB-038BB2549D3A">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>56EA2E4C-0C42-F1CC-4B55-CBED4498DFB0</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC59002F-DC46-8691-76F2-5C90D9E891D1" referredColumn="53527E1E-3E90-D17D-85BB-1A7BAF5B84EB"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_codigo_producto" id="5CCF4444-FE6E-4E0D-E1CE-0AF48A6C842F">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>BDBEA898-1BCA-205A-9FE6-8AF47E6E8EA3</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD7D2B0E-3E54-9514-7D00-B433ABFD26AC" referredColumn="7D5A6E3F-A733-2E3B-183C-091648A635F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CB66124-AD0D-5375-99BF-B5444E85FBB4" name="DETALLES_FACTURA_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:53:39 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCF4444-FE6E-4E0D-E1CE-0AF48A6C842F"/>
+<colUsage columnID="E0FB0FC1-BE45-2151-44AB-038BB2549D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A081D296-F8D0-6150-30FC-97AC169FB90D" name="DETALLE_FACTURA_FACTURA_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>826202FE-BED9-67C3-4F29-51C6C8B90236</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0FB0FC1-BE45-2151-44AB-038BB2549D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46518EEA-C692-BD7E-6AA7-9EC1F89317B5" name="DETALLE_FACTURA_PRODUCTO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>A74F3D01-01E0-15E7-F310-9662A34CA080</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCF4444-FE6E-4E0D-E1CE-0AF48A6C842F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

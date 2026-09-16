@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A1E498D-BC1E-561F-4DBC-2A7FADC35529" name="FACTURA">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:37:57 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA549A7D-6C98-DD01-48C4-A78956B4490E" name="PAGO">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:11:54 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="numero_factura" id="0D641B26-0F33-A319-0E79-AF486122B031">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:38:04 UTC</createdTime>
+<Attribute name="numero_pago" id="64D32C58-45CB-914D-515F-5C921B2025A2">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:12:08 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha" id="57AB950C-348C-3B82-6E20-3EF768D3BD41">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:38:13 UTC</createdTime>
+<Attribute name="fecha" id="ABC931BE-8C4F-8D41-F0A5-A8256A18BA42">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:12:20 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
@@ -35,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="impuestos" id="EA89F35D-D38E-C1AA-9F04-D145F1AE72A9">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:38:21 UTC</createdTime>
+<Attribute name="monto" id="9A393E2C-6357-983E-1AE7-ABF67879A049">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:12:25 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
@@ -45,9 +45,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor_total" id="3601D6DA-68E0-7C19-6D8E-507D4D28735D">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:38:33 UTC</createdTime>
+<Attribute name="forma_pago" id="F5A6BA6B-917A-1111-495E-1AFA80DB2B65">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:12:34 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
@@ -55,30 +55,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_despacho" id="CC8BA9AA-79D3-D0C4-AB50-F87A24959362">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:39:19 UTC</createdTime>
-<generatorID>51F9A1CB-1547-C898-B582-4E984D118E73</generatorID>
+<Attribute name="numero_factura" id="8FEAC762-DF9D-CCC3-B6E0-389AC64663DB">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:13:22 UTC</createdTime>
+<generatorID>DF649409-A71C-1D92-B14D-104E2FB9F161</generatorID>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
 </engineerTo>
-<referedAttribute>15148E32-8EDC-864D-C2BB-85D934E93E02</referedAttribute>
+<referedAttribute>0D641B26-0F33-A319-0E79-AF486122B031</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2A8E15CB-597E-3CCC-76BB-B88CD625A9FD" name="FACTURA PK">
-<createdBy>1112041532</createdBy>
-<createdTime>2026-09-14 16:38:11 UTC</createdTime>
+<identifier id="A98D256B-633E-52E7-1AA8-32DB1381D915" name="PAGO PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:12:16 UTC</createdTime>
 <ownerDesignName>trabajo clase</ownerDesignName>
 <engineerTo>
 <item key="A2F118B9-3536-E479-F412-5B240F7DBEC0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0D641B26-0F33-A319-0E79-AF486122B031</attributeRef>
+<attributeRef>64D32C58-45CB-914D-515F-5C921B2025A2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

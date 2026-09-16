@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A51CB91A-1627-D14F-4ECE-DF5C60FCEB5F" containerWithKeyObject="B7F8B21C-6FB9-196D-2015-A649AEED8FB2" localFKIndex="CB82B4A3-2511-20EB-BC35-0E9CE15D5F81" name="DETALLE_DESPACHO_DESPACHO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>2BF6CA71-F06B-4264-82A4-CC2BD86B3008</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<referredTableLongName>DESPACHOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1BBB64B-510F-AF20-A56E-E1EF59903160</referredTableID>
+<keyObject>924BE57F-3767-8B04-C40D-52B74AE1169B</keyObject>
+<referredKeyID>924BE57F-3767-8B04-C40D-52B74AE1169B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_despacho</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

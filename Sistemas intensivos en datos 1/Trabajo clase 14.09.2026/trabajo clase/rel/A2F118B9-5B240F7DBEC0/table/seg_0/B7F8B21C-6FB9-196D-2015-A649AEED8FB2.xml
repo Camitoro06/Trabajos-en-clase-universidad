@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7F8B21C-6FB9-196D-2015-A649AEED8FB2" name="DETALLES_DESPACHO">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>1EDF4EBF-87D3-8D9C-5661-B44DDE9010E0</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<ordsAlias>detalle_despacho</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad_enviada" id="46A5B97C-1BCE-FD2F-BD02-D8C16AAD3D73">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>37728AE1-74E7-92FC-78B8-D9CD419EC5F8</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESPACHO_numero_despacho" id="1248102B-893E-6C0E-7136-01F864FF24E3">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>722B01AA-F43F-26D8-C059-B48E26F8A30B</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A51CB91A-1627-D14F-4ECE-DF5C60FCEB5F" referredColumn="59DB0864-8153-A09F-10F1-6FC8D07FDB39"/>
+</associations>
+</Column>
+<Column name="DETALLE_PEDIDO_DETALLE_PEDIDO_ID" id="09697704-367F-F60C-F7B8-76BF12EB47E9">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A02F5ADD-2FCA-60E6-83DF-1759AF45CDE2" referredColumn="BAEA14EE-B033-E234-2C5C-850A402188BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4286D6C3-AEB3-583D-AD95-5CFD2F6D7A7B" name="DETALLES_DESPACHO_PK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:49:26 UTC</createdTime>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09697704-367F-F60C-F7B8-76BF12EB47E9"/>
+<colUsage columnID="1248102B-893E-6C0E-7136-01F864FF24E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB82B4A3-2511-20EB-BC35-0E9CE15D5F81" name="DETALLE_DESPACHO_DESPACHO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>2BF6CA71-F06B-4264-82A4-CC2BD86B3008</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1248102B-893E-6C0E-7136-01F864FF24E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7CC9DCA-0C12-4CE4-5B15-A622ED1761EA" name="DETALLE_DESPACHO_DETALLE_PEDIDO_FK">
+<createdBy>jptor</createdBy>
+<createdTime>2026-09-16 01:15:12 UTC</createdTime>
+<generatorID>65E4489D-493A-F1A2-B85C-BD47FD9CAB00</generatorID>
+<ownerDesignName>trabajo clase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09697704-367F-F60C-F7B8-76BF12EB47E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
